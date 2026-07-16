@@ -1,0 +1,130 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="900"
+  height="74"
+  viewBox="0 0 900 74"
+>
+  <style>
+    .message {
+      font-family: "JetBrains Mono", "Fira Code", monospace;
+      font-size: 18px;
+      font-weight: 500;
+      fill: #d8b4fe;
+      opacity: 0;
+      animation: show 64s linear infinite;
+    }
+
+    .reveal {
+      width: 0;
+      animation: type 64s steps(42, end) infinite;
+    }
+
+    .cursor {
+      animation: blink 0.8s step-end infinite;
+    }
+
+    .d00 { animation-delay: 0s; }
+    .d04 { animation-delay: 4s; }
+    .d08 { animation-delay: 8s; }
+    .d12 { animation-delay: 12s; }
+    .d16 { animation-delay: 16s; }
+    .d20 { animation-delay: 20s; }
+    .d24 { animation-delay: 24s; }
+    .d28 { animation-delay: 28s; }
+    .d32 { animation-delay: 32s; }
+    .d36 { animation-delay: 36s; }
+    .d40 { animation-delay: 40s; }
+    .d44 { animation-delay: 44s; }
+    .d48 { animation-delay: 48s; }
+    .d52 { animation-delay: 52s; }
+    .d56 { animation-delay: 56s; }
+    .d60 { animation-delay: 60s; }
+
+    @keyframes show {
+      0%, 6.15% { opacity: 1; }
+      6.25%, 100% { opacity: 0; }
+    }
+
+    @keyframes type {
+      0% { width: 0; }
+      2.5% { width: 790px; }
+      4.7% { width: 790px; }
+      6.15% { width: 0; }
+      100% { width: 0; }
+    }
+
+    @keyframes blink {
+      0%, 50% { opacity: 1; }
+      51%, 100% { opacity: 0; }
+    }
+  </style>
+
+  <rect
+    x="1"
+    y="1"
+    width="898"
+    height="72"
+    rx="12"
+    fill="#0d1117"
+    stroke="#71368a"
+    stroke-width="2"
+  />
+
+  <circle cx="22" cy="18" r="5" fill="#ff5f57" />
+  <circle cx="40" cy="18" r="5" fill="#febc2e" />
+  <circle cx="58" cy="18" r="5" fill="#28c840" />
+
+  <text
+    x="28"
+    y="48"
+    font-family="monospace"
+    font-size="18"
+    fill="#a855f7"
+  >$</text>
+
+  <defs>
+    <clipPath id="c00"><rect class="reveal d00" x="52" y="27" height="30"/></clipPath>
+    <clipPath id="c04"><rect class="reveal d04" x="52" y="27" height="30"/></clipPath>
+    <clipPath id="c08"><rect class="reveal d08" x="52" y="27" height="30"/></clipPath>
+    <clipPath id="c12"><rect class="reveal d12" x="52" y="27" height="30"/></clipPath>
+    <clipPath id="c16"><rect class="reveal d16" x="52" y="27" height="30"/></clipPath>
+    <clipPath id="c20"><rect class="reveal d20" x="52" y="27" height="30"/></clipPath>
+    <clipPath id="c24"><rect class="reveal d24" x="52" y="27" height="30"/></clipPath>
+    <clipPath id="c28"><rect class="reveal d28" x="52" y="27" height="30"/></clipPath>
+    <clipPath id="c32"><rect class="reveal d32" x="52" y="27" height="30"/></clipPath>
+    <clipPath id="c36"><rect class="reveal d36" x="52" y="27" height="30"/></clipPath>
+    <clipPath id="c40"><rect class="reveal d40" x="52" y="27" height="30"/></clipPath>
+    <clipPath id="c44"><rect class="reveal d44" x="52" y="27" height="30"/></clipPath>
+    <clipPath id="c48"><rect class="reveal d48" x="52" y="27" height="30"/></clipPath>
+    <clipPath id="c52"><rect class="reveal d52" x="52" y="27" height="30"/></clipPath>
+    <clipPath id="c56"><rect class="reveal d56" x="52" y="27" height="30"/></clipPath>
+    <clipPath id="c60"><rect class="reveal d60" x="52" y="27" height="30"/></clipPath>
+  </defs>
+
+  <text class="message d00" x="52" y="49" clip-path="url(#c00)">Loading augmentation stack...</text>
+  <text class="message d04" x="52" y="49" clip-path="url(#c04)">JARVIS crashed again.</text>
+  <text class="message d08" x="52" y="49" clip-path="url(#c08)">Human, but enhanced.</text>
+  <text class="message d12" x="52" y="49" clip-path="url(#c12)">Intelligence needs better interfaces.</text>
+  <text class="message d16" x="52" y="49" clip-path="url(#c16)">JARVIS is rebooting.</text>
+  <text class="message d20" x="52" y="49" clip-path="url(#c20)">Extending what humans can do.</text>
+  <text class="message d24" x="52" y="49" clip-path="url(#c24)">Kopi Luwak isn't that bad.</text>
+  <text class="message d28" x="52" y="49" clip-path="url(#c28)">Brewing coffee...</text>
+  <text class="message d32" x="52" y="49" clip-path="url(#c32)">Powered by poor decisions.</text>
+  <text class="message d36" x="52" y="49" clip-path="url(#c36)">Running on four hours of sleep.</text>
+  <text class="message d40" x="52" y="49" clip-path="url(#c40)">Still debugging JARVIS.</text>
+  <text class="message d44" x="52" y="49" clip-path="url(#c44)">Coffee is compiling...</text>
+  <text class="message d48" x="52" y="49" clip-path="url(#c48)">Operating below recommended capacity.</text>
+  <text class="message d52" x="52" y="49" clip-path="url(#c52)">Another prototype survived.</text>
+  <text class="message d56" x="52" y="49" clip-path="url(#c56)">Enhancement without replacement.</text>
+  <text class="message d60" x="52" y="49" clip-path="url(#c60)">Running experimental firmware.</text>
+
+  <rect
+    class="cursor"
+    x="842"
+    y="34"
+    width="8"
+    height="19"
+    rx="1"
+    fill="#c084fc"
+  />
+</svg>
