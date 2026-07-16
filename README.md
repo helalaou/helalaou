@@ -5,10 +5,10 @@
   width="100%"
   align="top"
   alt="Profile header"
-/><!-- HEADER_STATUS_GAP: change height="8" --><img
+/><!-- HEADER_STATUS_GAP: change height="4" --><img
   src="https://raw.githubusercontent.com/helalaou/helalaou/main/assets/spacer.svg"
   width="1"
-  height="8"
+  height="4"
   align="top"
   alt=""
 /><!-- STATUS_HEIGHT: add height="NUMBER" to force a height --><img
@@ -16,10 +16,10 @@
   width="100%"
   align="top"
   alt="Animated terminal status"
-/><!-- STATUS_BANNER_GAP: change height="8" --><img
+/><!-- STATUS_BANNER_GAP: change height="4" --><img
   src="https://raw.githubusercontent.com/helalaou/helalaou/main/assets/spacer.svg"
   width="1"
-  height="8"
+  height="4"
   align="top"
   alt=""
 /><!-- BANNER_HEIGHT: add height="NUMBER" to force a height --><img
