@@ -1,11 +1,6 @@
 <!-- ═══════════════════════ TOP CLUSTER ═══════════════════════ -->
 
-<div align="center"><!-- HEADER_HEIGHT: change height=90 in URL --><img
-  src="https://capsule-render.vercel.app/api?type=waving&color=0:090812,20:1a1730,45:4a2865,70:8b3f91,100:d953b6&height=90&section=header"
-  width="100%"
-  align="top"
-  alt="Profile header"
-/><!-- HEADER_STATUS_GAP: change height="4" --><img
+<img
   src="https://raw.githubusercontent.com/helalaou/helalaou/main/assets/spacer.svg"
   width="1"
   height="4"
