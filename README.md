@@ -64,18 +64,13 @@
   height="24"
   align="top"
   alt=""
+/></div> 
+
+<!-- ═══════════════════ CONTRIBUTION STREAM ═══════════════════ -->
+<div align="center"><img
+  src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=28&pause=1000&color=D953B6&center=true&vCenter=true&width=500&height=45&lines=%3C+contribution_stream+%2F%3E"
+  alt="&lt; contribution_stream /&gt;"
 /></div>
-
-<!-- ═══════════════════ CONTRIBUTION TITLE ═══════════════════ -->
-
-<!--
-Using plain HTML instead of ## removes GitHub's large automatic
-heading margins and gives you more predictable spacing.
--->
-<div align="center">
-  <strong><code>&lt; contribution_stream /&gt;</code></strong>
-</div>
-
 <!-- ═════════════════════ TITLE → SNAKE ═════════════════════ -->
 
 <!-- TITLE_SNAKE_GAP: change height="16" -->
